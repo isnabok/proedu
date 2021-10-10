@@ -21,8 +21,20 @@ console.dir({
 
 console.log('Arguments: ');
 console.dir({
-    // у фун-ии есть атребут length, который показывает сколько функция ожидает аргументов
+    // у фун-ии есть атрибут length, который показывает сколько функция ожидает аргументов
     inc: inc.length, //1
     sum: sum.length, //2
     max: max.length, //2
+});
+
+// Имя анонимной функции
+console.log('Anonymous function: ' + function(x) { return x; }.name); // нет имени
+console.log('Anonymous lambda: ' + (x => x).name); // нет имени
+
+// Метод toString - выдает исходный код ф-ии
+console.log('toString');
+console.dir({
+    inc: inc.toString(),
+    sum: sum.toString(),
+    max: max.toString(),
 });
