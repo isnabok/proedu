@@ -4,6 +4,7 @@
 * [Dictionary](theory/dictionary.md)
 
 ## Теория программирования (практика)
+* [Функции, лямбды (стрелочные функции), контексты, замыкания в JavaScript](theory/2.md)
 
 ## JS+HTML
 
