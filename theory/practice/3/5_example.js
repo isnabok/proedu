@@ -5,7 +5,7 @@ const hash = () => {
     Object.defineProperty(data, 'add', {
         enumerable: false,
         value(key, value) {
-            data[key] = data;
+            data[key] = value;
             return data;
         }
     });
